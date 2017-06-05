@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="MartApp">
+<head>
+    <title>Start Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body ng-controller="MainController">
+
+<header ng-viewport="navigation"></header>
+<div ng-viewport="main"></div>
+<footer ng-viewport="footer"></footer>
+
+<script src="node_modules/angular/angular.min.js"></script>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/router.es5.js"></script>
+<!--components -->
+<script src="components/navigation/navigation.js"></script>
+<script src="components/home/home.js"></script>
+<script src="components/footer/footer.js"></script>
+<script src="components/about/about.js"></script>
+<!--application-->
+<script src="app/app.js"></script>
+<script src="app/controller.js"></script>
+</body>
+</html>

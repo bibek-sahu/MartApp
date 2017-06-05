@@ -1,0 +1,14 @@
+{
+  "name": "MartApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+    "dependencies": {
+        "angular": "1.4",
+        "bootstrap": "",
+        "jquery": "",
+        "font-awesome": ""
+    }
+}
